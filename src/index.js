@@ -9,6 +9,8 @@ root.render(
     <Router>
         <Routes>
             <Route index element={<App/>}/>
+            <Route path={"/Contact"} element={<h1>ESSA</h1>}/>
+            <Route path={"/*"} element={<h1>404 not found</h1>}/>
         </Routes>
     </Router>,
 
